@@ -1,4 +1,4 @@
-# ACML-Assignment-2
+# Convolutional Autoencoder
 The project entailed the development of an AutoEncoder architecture for image reconstruction. Therefore, the implementation was built upon the library TensorFlow / Keras as it has excellent support to run with the traditional Google engine of Colaboratory. The latter IDE was chosen over Pycharm as the notebook provides a connection with a single NVIDIA GPU to perform parallel computations with CUDA. This is necessary as some basic Tensorflow operations benefit from the provided speedup capability, especially when operating in a deep learning environment.
 
 The results from different runs where tracked using Weights and Biases, a tool for experiment tracking. Herewith, hyperparameters are defined to tune upfront and run the experiments on multiple machines simultaneously. The upshift of this approach was a reduced coordination and experiment tracking overhead while everything was assembled in comprehensive graphs. On the other hand, a well-defined configuration with the tool was needed so that the data being tracked had a clear documentation.
